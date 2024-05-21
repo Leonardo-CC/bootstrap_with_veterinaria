@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+}
+
+body{
+    background-color: orangered;
+}
+
+.main-container{
+    border: 4px solid orangered;
+    position: fixed;
+    height: 80px;
+    overflow: hidden;
+    top: 0;
+    display: flex;
+    align-items: center;
+    background: orange;
+    width: 100%;
+}
+
+.logo {
+    background: url(img/pets.png) no-repeat 80% 80%;
+    background-size: contain;
+    width: 180px;
+    height: 55px;
+    float: left;
+}
+
+
+.menu{
+    position: absolute;
+    right: 50px;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 5px;
+    transition: color 1s;
+}
+
+.menu a:hover{
+    color: #E85860;
+}
+
+.Titulo{
+    font-family: cursive;
+    font-size: 30px;
+}
+
+header {
+    width: 100%;
+    height: 840px;
+    background: url(img/fondom1.png) no-repeat ;
+    background-size: cover;
+    margin-top: 80px;
+}
+
+span{
+    background-color: red;
+    border-radius: 3px;
+}
